@@ -59,4 +59,3 @@ def delete_user(id: int):
             return {"message": "User deleted successfully"}
     raise HTTPException(status_code=404, detail="User not found")
 
-# To run the FastAPI app, use: uvicorn main:app --reload
